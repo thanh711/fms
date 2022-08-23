@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "DataAccessLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nctha\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectName": "BusinessLogicLayer",
+      "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "packagesPath": "C:\\Users\\nctha\\.nuget\\packages\\",
+      "outputPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nctha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "dashboard": "Dashboard",
+    "opening": "Opening",
+    "processing": "Processing",
+    "done": "Done",
+    "all": "All",
+    "troubleNotice": "Trouble Report Notice",
+    "checklistNotice": "Checklist Notice",
+    "warehouseNotice": "Warehouse Notice",
+    "quickAccess": "Quick Access",
+    "createTrouble": "Create Trouble Report",
+    "myTrouble": "My Trouble Reports",
+    "viewMap": "View Map",
+    "warehouseRemain": "Warehouse Remaining",
+    "myChecklist": "My Checklists",
+    "technicalReport": "Technical Report",
+    "viewDetial": "View Detail",
+    "here": "here"
+}

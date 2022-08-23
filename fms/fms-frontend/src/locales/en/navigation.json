@@ -1,0 +1,23 @@
+{
+    "titleHeader": "Facilities Management System",
+    "welcome": "Welcome",
+    "guideline": "Guideline",
+    "signOut": "Sign out",
+    "home": "Home",
+    "myTrouble": "My Troubles",
+    "createTrouble": "Create trouble",
+    "myChecklist": "My checklists",
+    "customizeChecklist": "Customize Checklist",
+    "viewMap": "View Map",
+    "customizeMap": "Customize Map",
+    "assetImportExport": "Import/ Export",
+    "history": "History",
+    "remainingReport": "Remaining Report",
+    "remainingStandards": "Remaining standards",
+    "campus": "Campus",
+    "location": "Location",
+    "areaRoom": "Area/ Room",
+    "asset": "Asset",
+    "user": "User",
+    "assetType": "Asset Type"
+}

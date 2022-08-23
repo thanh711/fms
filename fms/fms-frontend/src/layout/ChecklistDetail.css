@@ -1,0 +1,22 @@
+.requirement div {
+    flex-direction: row!important;
+}
+
+.requirement div label {
+    padding: 0 !important;
+    padding-top: 6px !important;
+}
+
+.requirementContain div {
+    margin-bottom: 0px !important;
+}
+
+.requirementContain div div:last-child {
+    height: 25px;
+}
+
+@media (max-width: 575px) {
+    .status-require {
+        text-align: left!important;
+    }
+}

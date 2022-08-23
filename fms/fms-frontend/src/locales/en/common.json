@@ -1,0 +1,31 @@
+{
+    "search": "Search",
+    "export": "Export",
+    "action": "Action",
+    "of": "of",
+    "items": "items",
+    "submit": "Submit",
+    "saveDraft": "Save Draft",
+    "update": "Update",
+    "create": "Create",
+    "cancel": "Cancel",
+    "all": "All",
+    "notify": "Notification",
+    "notiTitleDelete": "Are you sure you want to delete?",
+    "error": {
+        "empty": "This field cannot be empty"
+    },
+    "button": {
+        "submit": "Submit",
+        "saveDraft": "Save Draft",
+        "update": "Update",
+        "create": "Create",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "search": "Search",
+        "export": "Export",
+        "import": "Import",
+        "preview": "Preview",
+        "save": "Save"
+    }
+}

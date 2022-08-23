@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{0121FCED-5ACE-444C-AA91-6A9771DA4FBA}|Default">
+  <MonoDevelop.Ide.ItemProperties.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/Service/UserService.cs">
+    <Files>
+      <File FileName="DataAccessLayer/Service/AreaService.cs" Line="1" Column="1" />
+      <File FileName="DataAccessLayer/Service/UserService.cs" Line="61" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="fms-backend" expanded="True">
+            <Node name="BusinessLogicLayer" expanded="True" />
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="Service" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,31 @@
+{
+    "search": "Tìm kiếm",
+    "export": "Xuất excel",
+    "action": "Hành động",
+    "of": "của",
+    "items": "mục",
+    "submit": "Lưu",
+    "saveDraft": "Lưu nháp",
+    "update": "Cập nhật",
+    "create": "Tạo mới",
+    "cancel": "Huỷ",
+    "all": "Tất cả",
+    "notify": "Thông báo",
+    "notiTitleDelete": "Bạn có chắc chắn muốn xoá?",
+    "error": {
+        "empty": "Trường này không thể để trống"
+    },
+    "button": {
+        "submit": "Lưu",
+        "saveDraft": "Lưu nháp",
+        "update": "Cập nhật",
+        "create": "Tạo mới",
+        "cancel": "Huỷ",
+        "delete": "Xoá",
+        "search": "Tìm kiếm",
+        "export": "Xuất excel",
+        "import": "Nhập excel",
+        "preview": "Xem trước",
+        "save": "Lưu"
+    }
+}

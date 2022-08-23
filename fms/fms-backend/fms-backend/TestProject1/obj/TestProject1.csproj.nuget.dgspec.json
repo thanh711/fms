@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\TestProject1\\TestProject1.csproj": {}
+  },
+  "projects": {
+    "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectName": "BusinessLogicLayer",
+        "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "packagesPath": "C:\\Users\\nctha\\.nuget\\packages\\",
+        "outputPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nctha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\Presentation\\Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\Presentation\\Presentation.csproj",
+        "projectName": "Presentation",
+        "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\nctha\\.nuget\\packages\\",
+        "outputPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nctha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+                "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              },
+              "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\TestProject1\\TestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\TestProject1\\TestProject1.csproj",
+        "projectName": "TestProject1",
+        "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\nctha\\.nuget\\packages\\",
+        "outputPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nctha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+                "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              },
+              "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\Presentation\\Presentation.csproj": {
+                "projectPath": "E:\\MyCode\\FMS2\\fms\\fms-backend\\fms-backend\\Presentation\\Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
